@@ -1,0 +1,41 @@
+*{
+    margin: 10 px;
+    padding:10 px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    height: 70px;
+    color:#696969;
+}
+nav {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    height: 30px;
+}
+nav a{
+    display: inline-flex;
+    color: #696969;
+    text-decoration: none;
+    margin: 0.30 px;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+ nav a:hover{
+    background-color: #000;
+    color: #fff;
+    transition: ease-in .5s;
+ }
+
+.encabezado-img{
+    background-image: url(img/fondo.jpg);
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
