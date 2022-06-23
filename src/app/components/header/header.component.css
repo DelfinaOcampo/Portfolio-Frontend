@@ -1,24 +1,29 @@
 *{
-    margin: 10 px;
-    padding:10 px;
+    margin: 0 px;
+    padding:0 px;
     box-sizing: border-box;
 }
 
-body{
-    background-color: antiquewhite;
-    margin: 0;
+.body{
+    background-color: #696969;
+    margin: 10px opx 0px;
 }
 
 .container{
+ border-radius: --corner-radius-medium;
+}
+
+.headers{
     display: flex;
     justify-content: space-between;
     background-color: #f2f2f2;
-    height: 40px;
+    height: 70px;
     color:#696969;
+    width: auto;
 }
 
 .logo{
-    margin-top: 1em;
+    margin-top: 0.5em;
     display: flex;
     height: 50px;
     align-items: center;
@@ -26,7 +31,7 @@ body{
 
 .logo img{
    height: 50px;
-   margin-left: 20px;
+   margin-left: 10px;
 }   
 
 nav {margin-top: 1.5em;
@@ -50,5 +55,48 @@ nav a{
     transition: ease-in .5s;
  }
 
+.about-me{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1em auto;
+    align-items: center;
+    border-radius: 10px;
+}
 
+.about img{
+    border: 3px solid #696969;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
 
+}
+
+.about{
+    align-items: center;
+    height: 60vh;
+}
+
+.about-info{
+    grid-column: 5/10;
+    padding: 2em;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    color: #696969;
+}
+
+.interés{
+    padding: 10px 20px;
+    background-color: rgb(248, 180, 125);
+    border: none;
+    border-radius: 20px;
+}
+
+.sección{
+    padding: 10px 20px;
+    background-color: rgb(248, 180, 125);
+    border: none;
+    border-radius: 20px;
+}
