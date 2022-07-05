@@ -68,8 +68,7 @@ nav a{
     width: 30vw;
  }
 
-.row{
-    background-color: #dbd7d7;
+.row{  
     align-items: center;
     margin-top: 30px;
 }
@@ -99,4 +98,19 @@ nav a{
         left: 33%;
         top: 630;
     }
+}
+
+/*footer*/
+.div-footer{
+    background: black;
+    color: #696969;
+}
+
+.footer{
+    color: #fefefe;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px 5px #999;
 }
