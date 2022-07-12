@@ -62,55 +62,5 @@ nav a{
     color: white;
  }
 
- /*etiqueta acerca-de*/
+ 
 
- .img-perfil{
-    width: 30vw;
- }
-
-.row{  
-    align-items: center;
-    margin-top: 30px;
-}
-
-#nombre{
-    font-weight: bold;
-}
-
-
-/*foto de perfil*/
-@media (min-width: 600px){
-    #fotodeperfil{
-        width: 20%
-        border-radius 100%;
-        box-shadow: 5px 5px 5px grey;
-        left: 5%;
-        top: 600;
-    }
-}
-
-@media (max-width: 575px){
-    #fotodeperfil{
-        position: absolute;
-        width: 30%
-        border-radius 100%;
-        box-shadow: 5px 5px 5px grey;
-        left: 33%;
-        top: 630;
-    }
-}
-
-/*footer*/
-.div-footer{
-    background: black;
-    color: #696969;
-}
-
-.footer{
-    color: #fefefe;
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    box-shadow: 2px -2px 5px #999;
-}
